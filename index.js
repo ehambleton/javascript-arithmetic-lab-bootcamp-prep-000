@@ -1,3 +1,5 @@
+function someName { ... }
+
 function add(a, b) {
   return a + b
 }
@@ -22,4 +24,6 @@ function dec(n) {
   return a -= 1
 }
 
-function makeInt()
+function makeInt(n) {
+return (parseInt(n, 10))
+}
